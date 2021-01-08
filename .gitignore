@@ -109,13 +109,14 @@ pubspec.lock
 *.pyc
 *.swp
 *lgoliaConfiguration.dart
+.flutter-plugins-dependencies
 .DS_Store
 .atom/
 .buildlog/
 .history
 .svn/
-.slidy
-.idea
+.slidy/
+.idea/
 
 coverage/
 .test_coverage.dart
