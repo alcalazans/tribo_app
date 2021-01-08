@@ -114,6 +114,8 @@ pubspec.lock
 .buildlog/
 .history
 .svn/
+.slidy
+.idea
 
 coverage/
 .test_coverage.dart
