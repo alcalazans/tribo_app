@@ -8,4 +8,4 @@ O projeto foi construído em Flutter e utiliza flutter_mobx e flutter_modular. B
 
 ## Status
 
-Ainda em construção.
+Em construção. MVP
