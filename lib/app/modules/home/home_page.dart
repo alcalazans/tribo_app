@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:mobx/mobx.dart';
 import 'package:tribo/app/modules/search/search_page.dart';
 import 'package:tribo/app/modules/user/user_controller.dart';
 import 'package:tribo/app/modules/user/user_page.dart';
-import 'package:tribo/app/shared/auth/auth_controller.dart';
+
 import 'home_controller.dart';
 
 class HomePage extends StatefulWidget {
@@ -40,7 +39,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
         children: <Widget>[
           Icon( FontAwesomeIcons.handshake, color: Colors.white, size: 25,),
           Container(
-              child: Text('  SERPRO', style: TextStyle(fontSize:13 ,color: Colors.white, fontWeight: FontWeight.bold) )
+              child: Text('TRIBO', style: TextStyle(fontSize:13 ,color: Colors.white, fontWeight: FontWeight.bold) )
           ),
         ],
       ),

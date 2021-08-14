@@ -78,7 +78,7 @@ class AnimatedLogo extends AnimatedWidget {
                 children: <Widget>[
                   Icon( FontAwesomeIcons.handshake, color: Colors.white, size: 150,),
                   Center(
-                      child: Text('SERPRO', style: TextStyle(fontSize:19 ,color: Colors.white, fontWeight: FontWeight.bold) )
+                      child: Text('TRIBO', style: TextStyle(fontSize:19 ,color: Colors.white, fontWeight: FontWeight.bold) )
                   ),
                 ],
               ),
